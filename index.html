@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Corporate Plus - One Stop Solution for All Corporate Needs</title>
+<meta name="description" content="Corporate Plus delivers one-stop corporate solutions including customized gifts, IT hardware/software, office interior design, and branded merchandise.">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+body { font-family: 'Inter', sans-serif; color: #2c3e50; }
+
+/* Navbar */
+.navbar { background: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.navbar-brand { font-weight: 700; font-size: 1.5rem; display: flex; align-items: center; }
+.navbar-brand img { max-height: 45px; width: auto; margin-right: 10px; }
+
+/* Hero + Contact Background */
+.hero, .contact { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('https://source.unsplash.com/featured/?corporate-office') no-repeat center center; background-size: cover; color: white; padding: 120px 0; position: relative; text-align: center; }
+.hero::before, .contact::before { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,0.35); }
+.hero .container, .contact .container { position: relative; z-index: 1; }
+
+/* MAIN HEADING STYLE */
+.brand-highlight { display: inline-block; background: rgba(255, 255, 255, 0.15); padding: 14px 36px; border-radius: 16px; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); font-weight: 800; color: #f5f7ff; }
+
+/* Sections */
+.section { padding: 80px 0; }
+.section-title { font-size: 2.5rem; font-weight: 700; text-align: center; margin-bottom: 40px; }
+
+/* Services */
+.service-card { background: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); text-align: center; height: 100%; }
+.service-card i { font-size: 3rem; color: #667eea; margin-bottom: 15px; }
+
+/* Light Sections */
+.why-choose, .industries, .clientele { background: #f8f9fa; }
+
+/* Testimonials */
+.testimonial { background: #ffffff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+
+/* Contact */
+.contact input, .contact textarea { border-radius: 6px; border: none; }
+
+/* Client Logos */
+.clientele img { transition: transform 0.3s ease; }
+.clientele img:hover { transform: scale(1.1); }
+
+/* Footer */
+footer { background: #1a252f; color: white; padding: 30px 0; text-align: center; }
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+<a class="navbar-brand" href="#home">
+    <img src="images/logo.png" alt="Corporate Plus Logo">
+    Corporate Plus
+</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="#why-choose">Why Choose Us</a></li>
+<li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+<li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+<li class="nav-item"><a class="nav-link" href="#industries">Industries</a></li>
+<li class="nav-item"><a class="nav-link" href="#clientele">Our Clientele</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<div class="container">
+<img src="images/logo.png" alt="Corporate Plus Logo" style="max-height:90px; width:auto;" class="mb-3">
+<h1 class="brand-highlight">Corporate Plus</h1>
+<p class="lead mt-3">
+One Stop Solution for All Corporate Needs. We provide end-to-end corporate services that help businesses grow, from innovative corporate gifting to IT solutions, office interiors, and branded merchandise. Partner with us to elevate your brand and streamline your operations.
+</p>
+<a href="#contact" class="btn btn-primary btn-lg mt-3">Get a Quote</a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+<div class="container">
+<h2 class="section-title">About Us</h2>
+<p class="text-center">
+Corporate Plus is a premier corporate solutions provider dedicated to delivering high-quality, comprehensive services under one roof. 
+We specialize in corporate gifting, IT hardware and software solutions, office interior design, and branded merchandise. 
+Our mission is to empower businesses by providing customized, innovative solutions that save time, reduce costs, and create a professional brand image. 
+With a commitment to excellence, we collaborate closely with clients to understand their unique needs, ensuring every project is executed seamlessly and efficiently.
+</p>
+</div>
+</section>
+
+<!-- MESSAGE FROM MANAGEMENT -->
+<section id="management-message" class="section">
+  <div class="container">
+    <h2 class="section-title">Message from Management</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="p-4 shadow rounded bg-white">
+          <p>
+            At Corporate Plus, our journey has always been guided by a simple belief —
+            <strong>honesty, quality, and commitment build long-term relationships</strong>.
+          </p>
+          <p>
+            We understand that every business has unique requirements, and our responsibility
+            is to deliver solutions that not only meet expectations but exceed them.
+            From corporate gifting and branding to IT solutions and office interiors,
+            our team works with dedication, transparency, and attention to detail at every stage.
+          </p>
+          <p>
+            What truly sets us apart is our focus on service satisfaction.
+            We don’t just deliver products — we deliver reliability, trust, and value.
+            We are grateful to our clients for their continued confidence in us,
+            and we remain committed to supporting their growth with the same passion and professionalism.
+          </p>
+          <p class="fw-bold mt-4">
+            — Abhsihek Thakur(CEO)<br>
+            Corporate Plus
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="section">
+<div class="container">
+<h2 class="section-title">Our Services</h2>
+<div class="row g-4">
+<div class="col-md-4"><div class="service-card"><i class="fas fa-gift"></i><h5>Corporate Gifting</h5><p>We design thoughtful and unique gifts tailored for clients, employees, and partners, leaving a lasting impression and strengthening relationships.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-desktop"></i><h5>IT Hardware</h5><p>Provide reliable, high-quality IT hardware solutions, including computers, networking devices, and accessories, ensuring your business stays productive and efficient.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-palette"></i><h5>Office Interiors</h5><p>Creative and functional office design solutions that reflect your brand identity and enhance employee productivity, comfort, and workplace aesthetics.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-code"></i><h5>IT Software</h5><p>Tailor-made software solutions that optimize business operations, improve workflow, and ensure seamless integration with your existing systems.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-suitcase"></i><h5>Corporate Baggage</h5><p>Custom-branded corporate luggage for travel, events, or employee perks, combining functionality with elegant design to enhance your brand visibility.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-tshirt"></i><h5>Corporate Clothing</h5><p>High-quality, customized corporate apparel for staff and promotional events, ensuring consistency and professionalism in every interaction.</p></div></div>
+<div class="col-md-4"><div class="service-card"><i class="fas fa-tag"></i><h5>Branded Merchandise</h5><p>Creative branded merchandise solutions to promote your company effectively, combining quality, usability, and design aesthetics.</p></div></div>
+</div>
+</div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section id="why-choose" class="section why-choose">
+<div class="container">
+<h2 class="section-title">Why Choose Corporate Plus</h2>
+<div class="row text-center">
+<div class="col-md-4"><i class="fas fa-check-circle fa-3x mb-3"></i><h5>One Stop Solution</h5><p>All your corporate needs are handled under a single roof – from gifting to IT solutions and office interiors – saving time and simplifying management.</p></div>
+<div class="col-md-4"><i class="fas fa-cogs fa-3x mb-3"></i><h5>Customization</h5><p>We understand that every business is unique. Our solutions are fully tailored to meet your brand requirements and operational goals.</p></div>
+<div class="col-md-4"><i class="fas fa-shield-alt fa-3x mb-3"></i><h5>Reliability</h5><p>Trusted by numerous clients for delivering high-quality results consistently, with punctuality and attention to detail at every step.</p></div>
+</div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="section">
+<div class="container">
+<h2 class="section-title">How It Works</h2>
+<div class="row text-center">
+<div class="col-md-2"><i class="fas fa-search fa-2x mb-2"></i><h6>Inquiry</h6><p>Contact us with your business requirements or project ideas, and our experts will guide you on the best solutions.</p></div>
+<div class="col-md-2"><i class="fas fa-clipboard-list fa-2x mb-2"></i><h6>Planning</h6><p>We analyze your needs and create a comprehensive plan that balances quality, cost, and timeline.</p></div>
+<div class="col-md-2"><i class="fas fa-tools fa-2x mb-2"></i><h6>Customization</h6><p>Solutions are crafted specifically to your brand and operational requirements to ensure maximum impact.</p></div>
+<div class="col-md-2"><i class="fas fa-truck fa-2x mb-2"></i><h6>Delivery</h6><p>We ensure safe, timely, and professional delivery of products and services to your desired location.</p></div>
+<div class="col-md-2"><i class="fas fa-headset fa-2x mb-2"></i><h6>Support</h6><p>Our team provides ongoing assistance and follow-up to ensure satisfaction and smooth operations.</p></div>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="row g-4">
+
+      <!-- Jitendra Dwivedi -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"Thank you so much team Corporate Plus for all your support. You are one of the best team in terms of honesty, delivery, quality, and commitment. I personally feel very proud to work with you guys, wish you all the best for your further assignment."</p>
+          <h6>- Jitendra Dwivedi</h6>
+        </div>
+      </div>
+
+      <!-- Abhishek Tripathi -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"I truly appreciate their proactive approach to any business query, ensuring a seamless experience from initiation to delivery, which is of utmost importance. Otherwise, if most other partners secure the deal, they may lose interest in timely delivery, satisfaction, and other critical aspects."</p>
+          <h6>- Abhishek Tripathi</h6>
+        </div>
+      </div>
+
+      <!-- Hemant Kumar -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"Excellent work quality and staff is very humble and supportive. Corporate Plus is highly recommended to avail services as they believe in quality of work along with service satisfaction 👍 👍"</p>
+          <h6>- Hemant Kumar</h6>
+        </div>
+      </div>
+
+      <!-- Neel Kanth -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"They are really wonderful in both ways - soft spoken & on committed services."</p>
+          <h6>- Neel Kanth</h6>
+        </div>
+      </div>
+
+      <!-- Nikhil Hota -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>"Amazing experience. Very professional team."</p>
+          <h6>- Nikhil Hota</h6>
+        </div>
+      </div>
+
+      <!-- Manoj Rawat (5-star only) -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>★★★★★</p>
+          <h6>- Manoj Rawat</h6>
+        </div>
+      </div>
+
+      <!-- Ajay Kumar (5-star only) -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>★★★★★</p>
+          <h6>- Ajay Kumar</h6>
+        </div>
+      </div>
+
+      <!-- Harminder Singh (5-star only, acknowledged by owner) -->
+      <div class="col-md-4">
+        <div class="testimonial">
+          <p>★★★★★</p>
+          <h6>- Harminder Singh <small>(Appreciated Our Job Work)</small></h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- INDUSTRIES -->
+<section id="industries" class="section industries">
+<div class="container">
+<h2 class="section-title">Industries Served</h2>
+<div class="row text-center">
+<div class="col-md-4"><i class="fas fa-rocket fa-2x mb-2"></i><h5>Startups</h5><p>Supporting startups with innovative solutions to establish a strong corporate identity from day one.</p></div>
+<div class="col-md-4"><i class="fas fa-building fa-2x mb-2"></i><h5>SMEs</h5><p>Helping small and medium enterprises scale their business efficiently through tailored services and support.</p></div>
+<div class="col-md-4"><i class="fas fa-industry fa-2x mb-2"></i><h5>Enterprises</h5><p>Providing large organizations with end-to-end corporate solutions to ensure smooth operations and enhanced branding.</p></div>
+</div>
+</div>
+</section>
+
+<!-- OUR CLIENTELE -->
+<section id="clientele" class="section clientele">
+<div class="container">
+<h2 class="section-title">Our Clientele</h2>
+<p class="text-center mb-5">We take pride in serving a wide range of esteemed clients across industries.</p>
+<div class="row text-center g-4 justify-content-center">
+<div class="col-6 col-md-2"><img src="images/firm1.png" alt="Firm 1 Logo" class="img-fluid"></div>
+<div class="col-6 col-md-2"><img src="images/firm2.png" alt="Firm 2 Logo" class="img-fluid"></div>
+<div class="col-6 col-md-2"><img src="images/firm3.png" alt="Firm 3 Logo" class="img-fluid"></div>
+<div class="col-6 col-md-2"><img src="images/firm4.png" alt="Firm 4 Logo" class="img-fluid"></div>
+<div class="col-6 col-md-2"><img src="images/firm5.png" alt="Firm 5 Logo" class="img-fluid"></div>
+<div class="col-6 col-md-2"><img src="images/firm6.png" alt="Firm 6 Logo" class="img-fluid"></div>
+</div>
+</div>
+</section>
+
+<!-- FAQ SECTION (POINT 6) -->
+<section id="faq" class="section faq">
+<div class="container">
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="accordion col-md-8 mx-auto" id="faqAccordion">
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+Do you provide customized branding solutions?
+</button>
+</h2>
+<div id="faq1" class="accordion-collapse collapse show">
+<div class="accordion-body">
+Yes, we provide complete customization including logo branding, packaging, and tailored corporate solutions as per your business requirements.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+Do you offer GST billing?
+</button>
+</h2>
+<div id="faq2" class="accordion-collapse collapse">
+<div class="accordion-body">
+Yes, we are a GST-registered business and provide proper GST invoices for all services and products.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+What is the minimum order quantity?
+</button>
+</h2>
+<div id="faq3" class="accordion-collapse collapse">
+<div class="accordion-body">
+Minimum order quantity depends on the product or service. Please contact us to discuss your specific requirement.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+Do you deliver PAN India?
+</button>
+</h2>
+<div id="faq4" class="accordion-collapse collapse">
+<div class="accordion-body">
+Yes, we provide delivery and service support across PAN India with reliable logistics partners.
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+What is the typical delivery timeline?
+</button>
+</h2>
+<div id="faq5" class="accordion-collapse collapse">
+<div class="accordion-body">
+Delivery timelines depend on customization and quantity, but we always commit to transparent and timely delivery schedules.
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title text-white">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <input class="form-control mb-3" placeholder="Name" required>
+          <input class="form-control mb-3" placeholder="Email" type="email" required>
+          <input class="form-control mb-3" placeholder="Phone Number" type="tel">
+          <textarea class="form-control mb-3" rows="4" placeholder="Message" required></textarea>
+          <button class="btn btn-light btn-lg w-100">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="mt-4 text-center text-white">
+      <h5>Corporate Plus Office Details</h5>
+      <p>B-1-A, H.No-598, Ward, Mehrauli, Delhi-110030</p>
+      <p>GSTIN/UIN: 07BASPT1064J1Z6</p>
+      <p>State Name: Delhi, Code: 07</p>
+      <p>Email: <a href="mailto:corporate.plus1810@gmail.com" class="text-white">corporate.plus1810@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917042460879" class="text-white">+91 7042460879</a> / <a href="tel:+918384093430" class="text-white">+91 8384093430</a></p>
+      <p>Working Hours: Mon – Sat: 9:00 AM – 8:00 PM</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+<p>© 2018 Corporate Plus. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
