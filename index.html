@@ -19,6 +19,40 @@ body { font-family: 'Inter', sans-serif; color: #2c3e50; }
 .navbar-brand { font-weight: 700; font-size: 1.5rem; display: flex; align-items: center; }
 .navbar-brand img { max-height: 45px; width: auto; margin-right: 10px; }
 
+/* New Year Corporate Diary Offer */
+.diary-offer{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 90px 0;
+    color: #ffffff;
+}
+.diary-card{
+    background: rgba(255,255,255,0.12);
+    padding: 40px;
+    border-radius: 18px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.offer-badge{
+    display: inline-block;
+    background: #ffc107;
+    color: #000;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.diary-features li{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.diary-note{
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
 /* Hero + Contact Background */
 .hero, .contact { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('https://source.unsplash.com/featured/?corporate-office') no-repeat center center; background-size: cover; color: white; padding: 120px 0; position: relative; text-align: center; }
 .hero::before, .contact::before { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,0.35); }
@@ -92,6 +126,54 @@ One Stop Solution for All Corporate Needs. We provide end-to-end corporate servi
 <a href="#contact" class="btn btn-primary btn-lg mt-3">Get a Quote</a>
 </div>
 </section>
+
+<!-- NEW YEAR CORPORATE DIARY OFFER -->
+<section id="diary" class="diary-offer">
+<div class="container">
+<div class="row align-items-center g-5">
+
+<!-- LEFT CONTENT -->
+<div class="col-md-6">
+<span class="offer-badge">🎉 New Year Special Offer</span>
+<h2 class="fw-bold mb-3">
+Premium Customized Corporate Diaries
+</h2>
+<p class="lead">
+Start the New Year with elegance, organization, and brand recall.
+Corporate Plus offers premium corporate diaries designed to
+reflect your company’s identity and professionalism.
+</p>
+
+<ul class="diary-features list-unstyled">
+<li><i class="fas fa-check-circle me-2"></i>Company logo & branding on cover and inner pages</li>
+<li><i class="fas fa-check-circle me-2"></i>High-quality paper, binding & finishing</li>
+<li><i class="fas fa-check-circle me-2"></i>Customized layouts as per business needs</li>
+<li><i class="fas fa-check-circle me-2"></i>Bulk orders with assured on-time delivery</li>
+</ul>
+
+<div class="diary-note">
+<strong>🎁 Ideal for:</strong> Employees, Clients, Dealers, Channel Partners & New Year Corporate Gifting
+</div>
+
+<a href="#contact" class="btn btn-light btn-lg mt-4">
+Enquire for New Year Offer
+</a>
+</div>
+
+<!-- RIGHT IMAGE -->
+<div class="col-md-6 text-center">
+<img src="images/diary-offer.png"
+     alt="Corporate Diary New Year Offer"
+     class="img-fluid rounded shadow">
+<p class="mt-3 fw-semibold">
+*Limited period New Year offer – Custom pricing available*
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
 
 <!-- ABOUT -->
 <section id="about" class="section">
